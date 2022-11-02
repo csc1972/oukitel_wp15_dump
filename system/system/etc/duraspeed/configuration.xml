@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <PowerConsumptionCleaning>false</PowerConsumptionCleaning>
+	<PolicyLevel>3</PolicyLevel>
+	<CpuThreshold>70</CpuThreshold>
+    <CpuTarget>60</CpuTarget>
+    <!--Start: configure the white list APPS-->
+    <PlatformWhitelist>
+        <App1>com.tencent.mm</App1>
+        <App2>com.tencent.mobileqq</App2>
+        <App3>com.facebook.katana</App3> 
+        <App4>com.messenger.messenger</App4>
+        <App5>com.whatsapp</App5>
+        <App6>com.skyroam.silverhelper</App6>
+        <App7>com.skyroam.app</App7>
+        <App8>com.facebook.lite</App8> 
+        <App9>com.facebook.orca</App9> 
+        <App10>com.imo.android.imoim</App10>
+		<App11>com.twitter.android</App11>
+		<App12>com.skype.raider</App12>
+		<App13>com.google.android.apps.messaging</App13>
+        <App14>com.google.android.dialer</App14>
+    </PlatformWhitelist>
+    <!--End: configure the white list APPS-->
+</configuration>
