@@ -1,0 +1,6 @@
+
+on post-fs
+    chown system system /dev/fortsense_fp
+    chmod 664 /dev/fortsense_fp
+    
+    

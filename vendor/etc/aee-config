@@ -1,0 +1,4 @@
+AE_FORCE_MODE = 3
+AE_EE = n
+AE_NE = y
+AE_JE = y

@@ -1,0 +1,22 @@
+#line 1 "device/mediatek/sepolicy/chenyee/plat_private/service_contexts"
+# ==============================================
+# Chenyee Policy Rule
+# ==============================================
+# Gionee <Amigo_AppLock> <wujj> <2017-8-26> add for 174992 begin
+cyee_app_lock         u:object_r:cyee_app_lock_service:s0
+# Gionee <Amigo_AppLock> <wujj> <2017-8-26> add for 174992 begin
+
+#Chenyee <CY_FaceLock> <huangjianqiang> add
+cy_face_lock           u:object_r:cy_face_lock_service:s0
+#Chenyee <CY_FaceLock> <huangjianqiang> add
+
+# Chenyee <Chenyee_Server> futao 20171128 add for ChenyeeServer CSW1702A-106
+chenyeeserver         u:object_r:chenyee_server_service:s0
+# Chenyee <CY_CyeeLock> zenggz 20180702 add for CSW1705P-6 
+cyee_lock_settings         u:object_r:cyee_lock_settings_service:s0
+# Chenyee <CY_CyeeHuanji> zenggz 20180827 add for CSW1705P-6
+cyee_huanji         u:object_r:cyee_huanji_service:s0
+#line 1 "system/sepolicy/reqd_mask/service_contexts"
+# empty service_contexts file - this file is used to generate an empty
+# non-platform service_context for devices without any service_contexts
+# customizations.
